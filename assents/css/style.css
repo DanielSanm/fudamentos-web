@@ -1,5 +1,6 @@
 
 /* estilo do index.html */
+
 body {
     background-color: rgb(52, 73, 94);
     color: white;
@@ -7,11 +8,6 @@ body {
 
 .center {
     text-align: center;
-}
-
-#menu {
-    background-color: rgb(15, 15, 24);
-    padding: 4px;
 }
 
 #menu li {
@@ -46,3 +42,35 @@ body {
     text-align: justify;
     padding-inline: 20px;
 }
+
+.tam {
+    padding-top: 15px;
+    padding-inline: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.video {
+    padding: 20px;
+}
+
+/* estilo do contato.html */
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.contato {
+    background-color: rgb(41, 41, 90);
+    padding: 30px;
+    border-radius: 5%;
+}
+
+.w-250 {
+    width: 250px;
+}
+
+
