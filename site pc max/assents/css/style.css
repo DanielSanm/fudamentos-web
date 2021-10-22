@@ -1,0 +1,48 @@
+
+/* estilo do index.html */
+body {
+    background-color: rgb(52, 73, 94);
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+#menu {
+    background-color: rgb(15, 15, 24);
+    padding: 4px;
+}
+
+#menu li {
+    display: inline;
+    padding: 10px;
+}
+#menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.parag {
+    text-align: justify;
+    padding-inline: 20px;
+}
