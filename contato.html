@@ -31,23 +31,23 @@
                 <div class="mb-5 ml-4">
                     <label for="nome:">Nome:</label><br>
                 </div>
-                <input class="w-350 arred ptb-10" type="text" id="nome">
-                <br>
+                <input class="w-350 arred ptb-10" type="text" id="nome" onkeyup="validaNome()">
+                <div id="txtNome"></div>
                 <br>
                 <div class="mb-5 ml-4">
                     <label for="email">Email:</label><br>
                 </div>
-                <input class="w-350 arred ptb-10" type="email" id="email">
-                <br>
+                <input class="w-350 arred ptb-10" type="email" id="email" onkeyup="validaEmail()">
+                <div id="txtEmail"></div>
                 <br>
                 <div class="mb-5 ml-4">
                     <label for="assunto">Assunto:</label><br>
                 </div>
-                <textarea class="w-350 arredCaixa ptb-10" name="assunto" id="" cols="60" rows="5"></textarea>
-                <br>
+                <textarea class="w-350 arredCaixa ptb-10" name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
+                <div id="txtAssunto"></div>
                 <br>
                 <div class=center>
-                    <button>Enviar</button>
+                    <button onclick="enviar()">Enviar</button>
                 </div>
             </form>
         </div>
