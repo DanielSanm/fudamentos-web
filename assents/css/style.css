@@ -2,7 +2,7 @@
 /* estilo do index.html */
 
 body {
-    background-color: rgb(52, 73, 94);
+    background-color: #152023;
     color: white;
 }
 
@@ -64,13 +64,36 @@ body {
 }
 
 .contato {
-    background-color: rgb(41, 41, 90);
+    background-color: #2a4042;
     padding: 30px;
-    border-radius: 5%;
+    border-radius: 8%;
 }
 
-.w-250 {
-    width: 250px;
+.w-350 {
+    width: 350px;
+}
+
+.arred {
+    border-radius: 8px;
+}
+
+.arredCaixa {
+    border-radius: 8px;
+}
+.ptb-10 {
+    padding: 8px 8px
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.ml-4 {
+    margin-left: 4px;
+}
+
+#hrContato {
+    padding: 10px;
 }
 
 
